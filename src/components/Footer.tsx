@@ -14,6 +14,9 @@ const Footer = () => {
               </div>
               <h3 className="text-lg font-bold">Global Peace Restoration GPT</h3>
             </div>
+            <p className="text-gray-400 text-sm mb-1">
+              <em>World Peace Powered By AI</em> 🕊️
+            </p>
             <p className="text-gray-400 text-sm mb-4">
               AI-driven conflict resolution and negotiation facilitator operating at a global scale to promote peace and understanding.
             </p>
@@ -132,7 +135,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; 2025 <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+            &copy; 2025 <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AI WEB TOOLS LLC</a> All rights reserved. <span className="italic ml-1">World Peace Powered By AI</span> 🕊️
           </p>
           
           <a 

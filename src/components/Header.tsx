@@ -37,7 +37,9 @@ const Header = () => {
               <h1 className="text-xl font-bold group-hover:text-glow transition-all duration-300">
                 Global Peace Restoration <span className="text-cyber-blue">GPT</span> 🕊️
               </h1>
-              <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a></p>
+              <p className="text-xs text-gray-400">
+                <span className="italic">World Peace Powered By AI</span> | Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a>
+              </p>
             </div>
           </Link>
 
