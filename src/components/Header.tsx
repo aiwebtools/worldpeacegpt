@@ -107,21 +107,21 @@ const Header = () => {
               href="https://chatgpt.com/g/g-67dd7a72d0fc81919821bdeec393b21d-ubi-strategist-gpt"
               target="_blank"
               rel="noopener noreferrer" 
-              className="text-white hover:text-cyber-purple transition-colors text-sm text-center py-2"
+              className="bg-cyber-dark text-white hover:text-cyber-purple transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               Try UBI Strategist GPT
             </a>
             <a 
               href="#faq" 
-              className="text-white hover:text-cyber-blue transition-colors text-sm text-center py-2"
+              className="bg-cyber-dark text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               FAQ
             </a>
             <a 
               href="#disclaimer" 
-              className="text-white hover:text-cyber-blue transition-colors text-sm text-center py-2"
+              className="bg-cyber-dark text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               Disclaimer
@@ -130,7 +130,7 @@ const Header = () => {
               href="https://www.aiwebtools.ai" 
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-cyber-blue transition-colors text-sm text-center py-2"
+              className="bg-cyber-dark text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               More AI Tools
