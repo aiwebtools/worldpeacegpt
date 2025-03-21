@@ -29,22 +29,24 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center animate-glow-pulse">
-              <Globe className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold group-hover:text-glow transition-all duration-300">
-                Global Peace Restoration <span className="text-cyber-blue">GPT</span> 🕊️
-              </h1>
-              <p className="text-xs text-gray-400">
-                <span className="italic">World Peace Powered By AI</span> | Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a>
-              </p>
-              <p className="text-xs italic mt-1 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent hover:from-yellow-400 hover:to-yellow-600 transition-all duration-300 cursor-default font-semibold transform hover:scale-105 mx-auto text-center w-full">
-                "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
-              </p>
-            </div>
-          </Link>
+          <div className="flex items-center space-x-2 group">
+            <Link to="/" className="flex items-center space-x-2">
+              <div className="w-10 h-10 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center animate-glow-pulse">
+                <Globe className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-xl font-bold group-hover:text-glow transition-all duration-300">
+                  Global Peace Restoration <span className="text-cyber-blue">GPT</span> 🕊️
+                </h1>
+                <p className="text-xs text-gray-400">
+                  <span className="italic">World Peace Powered By AI</span> | Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a>
+                </p>
+              </div>
+            </Link>
+            <p className="text-xs italic ml-4 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent hover:from-yellow-400 hover:to-yellow-600 transition-all duration-300 cursor-default font-semibold transform hover:scale-105 hidden md:block">
+              "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
+            </p>
+          </div>
 
           {/* Mobile Menu Button */}
           <button 
@@ -98,6 +100,9 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} mt-4 pb-4`}>
+          <p className="text-xs italic mb-4 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent font-semibold text-center">
+            "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
+          </p>
           <nav className="flex flex-col space-y-4">
             <a 
               href="https://chatgpt.com/g/g-67dd8de036448191a8e1c97cd013e462-global-peace-restoration-gpt"
