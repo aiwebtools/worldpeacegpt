@@ -1,7 +1,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Bird } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -18,10 +18,10 @@ const CTASection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            Ready to Transform <span className="text-cyber-blue text-glow">Conflict Resolution</span>?
+            Ready to Transform <span className="text-cyber-blue text-glow">Conflict Resolution</span>? 🕊️
           </h2>
           <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-            Experience the power of AI-driven diplomatic solutions and take the first step toward global peace.
+            Experience the power of AI-driven diplomatic solutions and take the first step toward global peace. 🕊️
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -31,7 +31,7 @@ const CTASection = () => {
               rel="noopener noreferrer" 
               className="cyber-button px-8 py-4 text-lg flex items-center justify-center group"
             >
-              Start Using Now 
+              Start Using Now 🕊️ 
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
@@ -40,7 +40,7 @@ const CTASection = () => {
               rel="noopener noreferrer" 
               className="px-8 py-4 border border-cyber-purple/50 hover:border-cyber-purple bg-cyber-purple/10 hover:bg-cyber-purple/20 rounded-md transition-all duration-300 text-center text-lg flex items-center justify-center"
             >
-              Try UBI Strategist GPT
+              Try UBI Strategist GPT 🕊️
             </a>
           </div>
         </motion.div>

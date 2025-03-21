@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { Globe, Menu, X } from "lucide-react";
+import { Globe, Menu, X, Bird } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -31,11 +31,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-10 h-10 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center animate-glow-pulse">
-              <Globe className="w-6 h-6 text-white" />
+              <Bird className="w-6 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-bold group-hover:text-glow transition-all duration-300">
-                Global Peace Restoration <span className="text-cyber-blue">GPT</span>
+                Global Peace Restoration <span className="text-cyber-blue">GPT</span> 🕊️
               </h1>
               <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a></p>
             </div>
@@ -58,7 +58,7 @@ const Header = () => {
               rel="noopener noreferrer" 
               className="cyber-button text-sm"
             >
-              USE Global Peace Restoration GPT
+              USE Global Peace Restoration GPT 🕊️
             </a>
             <a 
               href="https://chatgpt.com/g/g-67dd7a72d0fc81919821bdeec393b21d-ubi-strategist-gpt"
@@ -66,19 +66,19 @@ const Header = () => {
               rel="noopener noreferrer" 
               className="text-white hover:text-cyber-purple transition-colors text-sm"
             >
-              Try UBI Strategist GPT
+              Try UBI Strategist GPT 🕊️
             </a>
             <a 
               href="#faq" 
               className="text-white hover:text-cyber-blue transition-colors text-sm"
             >
-              FAQ
+              FAQ 🕊️
             </a>
             <a 
               href="#disclaimer" 
               className="text-white hover:text-cyber-blue transition-colors text-sm"
             >
-              Disclaimer
+              Disclaimer 🕊️
             </a>
             <a 
               href="https://www.aiwebtools.ai" 
@@ -86,7 +86,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-cyber-blue transition-colors text-sm"
             >
-              More AI Tools
+              More AI Tools 🕊️
             </a>
           </nav>
         </div>
@@ -101,7 +101,7 @@ const Header = () => {
               className="cyber-button text-center text-sm"
               onClick={() => setIsMenuOpen(false)}
             >
-              USE Global Peace Restoration GPT
+              USE Global Peace Restoration GPT 🕊️
             </a>
             <a 
               href="https://chatgpt.com/g/g-67dd7a72d0fc81919821bdeec393b21d-ubi-strategist-gpt"
@@ -110,21 +110,21 @@ const Header = () => {
               className="bg-cyber-dark text-white hover:text-cyber-purple transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
-              Try UBI Strategist GPT
+              Try UBI Strategist GPT 🕊️
             </a>
             <a 
               href="#faq" 
               className="bg-cyber-dark text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
-              FAQ
+              FAQ 🕊️
             </a>
             <a 
               href="#disclaimer" 
               className="bg-cyber-dark text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
-              Disclaimer
+              Disclaimer 🕊️
             </a>
             <a 
               href="https://www.aiwebtools.ai" 
@@ -133,7 +133,7 @@ const Header = () => {
               className="bg-cyber-dark text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
-              More AI Tools
+              More AI Tools 🕊️
             </a>
           </nav>
         </div>

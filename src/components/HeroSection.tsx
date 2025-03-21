@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { Globe, Shield, Brain, ArrowRight } from "lucide-react";
+import { Globe, Shield, Brain, ArrowRight, Bird } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -20,10 +20,10 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              <span className="text-cyber-blue text-glow">AI-Driven</span> Conflict Resolution & Negotiation Facilitator
+              <span className="text-cyber-blue text-glow">AI-Driven</span> Conflict Resolution & Negotiation Facilitator 🕊️
             </h1>
             <p className="text-lg text-gray-300 mb-8">
-              Comprehensively analyze the root causes of global conflicts and proactively facilitate diplomatic negotiations between disputing parties across nations, regions, and cultures.
+              Comprehensively analyze the root causes of global conflicts and proactively facilitate diplomatic negotiations between disputing parties across nations, regions, and cultures. 🕊️
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
@@ -32,13 +32,13 @@ const HeroSection = () => {
                 rel="noopener noreferrer" 
                 className="cyber-button flex items-center justify-center"
               >
-                Start Using Now <ArrowRight className="ml-2 h-4 w-4" />
+                Start Using Now 🕊️ <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a 
                 href="#how-it-works" 
                 className="text-white border border-cyber-blue/50 hover:border-cyber-blue bg-cyber-blue/10 hover:bg-cyber-blue/20 px-6 py-3 rounded-md transition-all duration-300 text-center"
               >
-                Learn How It Works
+                Learn How It Works 🕊️
               </a>
             </div>
           </motion.div>
@@ -66,7 +66,7 @@ const HeroSection = () => {
             
             {/* Advanced AI text - moved below the image */}
             <div className="mt-4 glass rounded-md p-4 backdrop-blur-md">
-              <h3 className="font-bold text-cyber-blue mb-2">Powered by Advanced AI</h3>
+              <h3 className="font-bold text-cyber-blue mb-2">Powered by Advanced AI 🕊️</h3>
               <p className="text-sm text-gray-300">Facilitating peace through data-driven diplomatic solutions on a global scale.</p>
             </div>
             
@@ -76,7 +76,7 @@ const HeroSection = () => {
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             >
-              <Globe className="h-6 w-6 text-cyber-blue" />
+              <Bird className="h-6 w-6 text-cyber-blue" />
             </motion.div>
             <motion.div 
               className="absolute -bottom-5 -left-5 glass rounded-full p-4"
