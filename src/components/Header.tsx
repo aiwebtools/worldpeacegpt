@@ -40,7 +40,7 @@ const Header = () => {
               <p className="text-xs text-gray-400">
                 <span className="italic">World Peace Powered By AI</span> | Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a>
               </p>
-              <p className="text-xs italic mt-1 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent hover:from-yellow-400 hover:to-yellow-600 transition-all duration-300 cursor-default font-semibold transform hover:scale-105">
+              <p className="text-xs italic mt-1 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent hover:from-yellow-400 hover:to-yellow-600 transition-all duration-300 cursor-default font-semibold transform hover:scale-105 mx-auto text-center w-full">
                 "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
               </p>
             </div>
