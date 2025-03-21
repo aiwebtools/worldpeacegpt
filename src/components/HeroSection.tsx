@@ -51,7 +51,7 @@ const HeroSection = () => {
           >
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden border border-cyber-blue/30 shadow-lg shadow-cyber-blue/20">
               <a 
-                href="https://ideogram.ai/assets/image/lossless/response/Uq9U_4yDT-iv_yyT4t3F8A" 
+                href="https://chatgpt.com/g/g-67dd8de036448191a8e1c97cd013e462-global-peace-restoration-gpt" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
