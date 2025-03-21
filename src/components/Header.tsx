@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { Globe, Menu, X, Bird } from "lucide-react";
+import { Globe, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -31,7 +31,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-10 h-10 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center animate-glow-pulse">
-              <Bird className="w-6 h-6 text-white" />
+              <Globe className="w-6 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-bold group-hover:text-glow transition-all duration-300">
