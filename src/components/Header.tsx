@@ -28,6 +28,11 @@ const Header = () => {
       )}
     >
       <div className="container mx-auto px-4 md:px-6">
+        <div className="w-full text-center py-1 bg-cyber-blue/20 mb-2 rounded-md">
+          <p className="text-sm font-italic text-gray-300">
+            "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
+          </p>
+        </div>
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-10 h-10 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center animate-glow-pulse">
