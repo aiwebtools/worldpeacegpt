@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Globe, Shield, Brain, ArrowRight } from "lucide-react";
@@ -61,12 +62,12 @@ const HeroSection = () => {
                 />
               </a>
               <div className="absolute inset-0 bg-gradient-to-t from-cyber-black to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6">
-                <div className="glass rounded-md p-4 backdrop-blur-md">
-                  <h3 className="font-bold text-cyber-blue mb-2">Powered by Advanced AI</h3>
-                  <p className="text-sm text-gray-300">Facilitating peace through data-driven diplomatic solutions on a global scale.</p>
-                </div>
-              </div>
+            </div>
+            
+            {/* Advanced AI text - moved below the image */}
+            <div className="mt-4 glass rounded-md p-4 backdrop-blur-md">
+              <h3 className="font-bold text-cyber-blue mb-2">Powered by Advanced AI</h3>
+              <p className="text-sm text-gray-300">Facilitating peace through data-driven diplomatic solutions on a global scale.</p>
             </div>
             
             {/* Floating elements */}
