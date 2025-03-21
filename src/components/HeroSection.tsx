@@ -12,9 +12,9 @@ const HeroSection = () => {
       <div className="absolute bottom-20 -right-32 w-64 h-64 bg-cyber-purple/10 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <motion.div 
-            className="lg:w-1/2"
+            className="lg:w-1/2 order-2 lg:order-1"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -25,7 +25,7 @@ const HeroSection = () => {
             <p className="text-lg text-gray-300 mb-8">
               Comprehensively analyze the root causes of global conflicts and proactively facilitate diplomatic negotiations between disputing parties across nations, regions, and cultures. 🕊️
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-8 lg:mb-0">
               <a 
                 href="https://chatgpt.com/g/g-67dd8de036448191a8e1c97cd013e462-global-peace-restoration-gpt"
                 target="_blank"
@@ -44,7 +44,7 @@ const HeroSection = () => {
           </motion.div>
           
           <motion.div 
-            className="lg:w-1/2 relative"
+            className="lg:w-1/2 relative order-1 lg:order-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
