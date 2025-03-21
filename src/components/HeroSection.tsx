@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Globe, Shield, Brain, ArrowRight } from "lucide-react";
