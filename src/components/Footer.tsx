@@ -20,6 +20,9 @@ const Footer = () => {
             <p className="text-gray-400 text-sm mb-4">
               AI-driven conflict resolution and negotiation facilitator operating at a global scale to promote peace and understanding.
             </p>
+            <p className="text-xs text-yellow-400 mb-2 italic">
+              For informational, educational, and research purposes only.
+            </p>
             <a 
               href="https://www.aiwebtools.ai" 
               target="_blank" 
@@ -97,7 +100,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services"
+                  href="https://aiwebtools.lovable.app/disclaimers"
                   target="_blank"
                   rel="noopener noreferrer" 
                   className="text-gray-400 hover:text-cyber-blue transition-colors text-sm"
