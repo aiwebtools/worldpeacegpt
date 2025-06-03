@@ -29,8 +29,8 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2 group">
-            <Link to="/" className="flex items-center space-x-2">
+          <div className="flex items-center space-x-4 group flex-1">
+            <Link to="/" className="flex items-center space-x-2" aria-label="AIWEBTOOLS.AI - AI Tools Homepage">
               <div className="w-10 h-10 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center animate-glow-pulse">
                 <Globe className="w-6 h-6 text-white" />
               </div>
@@ -39,11 +39,11 @@ const Header = () => {
                   Global Peace Restoration <span className="text-cyber-blue">GPT</span> 🕊️
                 </h1>
                 <p className="text-xs text-gray-400">
-                  <span className="italic">World Peace Powered By AI</span> | Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors">AiWebTools.Ai</a>
+                  <span className="italic">World Peace Powered By AI</span> | Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors font-semibold">AIWEBTOOLS.AI</a>
                 </p>
               </div>
             </Link>
-            <p className="text-xs italic ml-4 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent hover:from-yellow-400 hover:to-yellow-600 transition-all duration-300 cursor-default font-semibold transform hover:scale-105 hidden md:block">
+            <p className="text-xs italic bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent hover:from-yellow-400 hover:to-yellow-600 transition-all duration-300 cursor-default font-semibold transform hover:scale-105 hidden lg:block ml-auto mr-4">
               "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
             </p>
           </div>
@@ -52,18 +52,19 @@ const Header = () => {
           <button 
             className="md:hidden text-white hover:text-cyber-blue transition-colors"
             onClick={toggleMenu}
-            aria-label="Toggle menu"
+            aria-label="Toggle navigation menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
+          <nav className="hidden md:flex items-center space-x-6" role="navigation" aria-label="Main navigation">
             <a 
               href="https://chatgpt.com/g/g-67dd8de036448191a8e1c97cd013e462-global-peace-restoration-gpt"
               target="_blank"
               rel="noopener noreferrer" 
               className="cyber-button text-sm"
+              aria-label="Use Global Peace Restoration GPT AI Tool"
             >
               USE Global Peace Restoration GPT 🕊️
             </a>
@@ -72,18 +73,21 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer" 
               className="text-white hover:text-cyber-purple transition-colors text-sm"
+              aria-label="Try UBI Strategist GPT AI Tool"
             >
               Try UBI Strategist GPT 🕊️
             </a>
             <a 
               href="#faq" 
               className="text-white hover:text-cyber-blue transition-colors text-sm"
+              aria-label="Frequently Asked Questions about AI Tools"
             >
               FAQ 🕊️
             </a>
             <a 
               href="#disclaimer" 
               className="text-white hover:text-cyber-blue transition-colors text-sm"
+              aria-label="AI Tools Disclaimer and Terms"
             >
               Disclaimer 🕊️
             </a>
@@ -92,6 +96,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-cyber-blue transition-colors text-sm"
+              aria-label="More AI Tools by AIWEBTOOLS.AI"
             >
               More AI Tools 🕊️
             </a>
@@ -103,13 +108,14 @@ const Header = () => {
           <p className="text-xs italic mb-4 bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent font-semibold text-center">
             "I MAY BE A DREAMER BUT I'M NOT THE ONLY ONE" - John Lennon
           </p>
-          <nav className="flex flex-col space-y-4">
+          <nav className="flex flex-col space-y-4" role="navigation" aria-label="Mobile navigation">
             <a 
               href="https://chatgpt.com/g/g-67dd8de036448191a8e1c97cd013e462-global-peace-restoration-gpt"
               target="_blank"
               rel="noopener noreferrer" 
               className="cyber-button text-center text-sm"
               onClick={() => setIsMenuOpen(false)}
+              aria-label="Use Global Peace Restoration GPT AI Tool"
             >
               USE Global Peace Restoration GPT 🕊️
             </a>
@@ -119,6 +125,7 @@ const Header = () => {
               rel="noopener noreferrer" 
               className="bg-cyber-blue/80 text-white hover:text-cyber-purple transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
+              aria-label="Try UBI Strategist GPT AI Tool"
             >
               Try UBI Strategist GPT 🕊️
             </a>
@@ -126,6 +133,7 @@ const Header = () => {
               href="#faq" 
               className="bg-cyber-blue/80 text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
+              aria-label="Frequently Asked Questions"
             >
               FAQ 🕊️
             </a>
@@ -133,6 +141,7 @@ const Header = () => {
               href="#disclaimer" 
               className="bg-cyber-blue/80 text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
+              aria-label="Disclaimer and Terms"
             >
               Disclaimer 🕊️
             </a>
@@ -142,6 +151,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="bg-cyber-blue/80 text-white hover:text-cyber-blue transition-colors text-sm text-center py-2 rounded-md"
               onClick={() => setIsMenuOpen(false)}
+              aria-label="More AI Tools by AIWEBTOOLS.AI"
             >
               More AI Tools 🕊️
             </a>
