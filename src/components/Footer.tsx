@@ -2,11 +2,13 @@
 import React from "react";
 import { Globe, Mail, Phone } from "lucide-react";
 
+const AIWEBTOOLS_URL = "https://aiwebtools.lovable.app/?via=aiwebtools";
+
 const Footer = () => {
   return (
     <footer className="bg-cyber-dark border-t border-cyber-blue/20 pt-12 pb-6">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-br from-cyber-blue to-cyber-purple rounded-full flex items-center justify-center">
@@ -24,7 +26,7 @@ const Footer = () => {
               For informational, educational, and research purposes only.
             </p>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={AIWEBTOOLS_URL}
               target="_blank" 
               rel="noopener noreferrer"
               className="text-sm text-cyber-blue hover:text-cyber-purple transition-colors font-semibold"
@@ -79,7 +81,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href={AIWEBTOOLS_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-cyber-blue transition-colors text-sm"
@@ -128,7 +130,7 @@ const Footer = () => {
                   className="flex items-center text-gray-400 hover:text-cyber-blue transition-colors text-sm"
                   aria-label="Call AI Web Tools support"
                 >
-                  <Phone className="w-4 h-4 mr-2" />
+                  <Phone className="w-4 h-4 mr-2 shrink-0" />
                   (475) 800-8096
                 </a>
               </li>
@@ -138,7 +140,7 @@ const Footer = () => {
                   className="flex items-center text-gray-400 hover:text-cyber-blue transition-colors text-sm"
                   aria-label="Email AI Web Tools support"
                 >
-                  <Mail className="w-4 h-4 mr-2" />
+                  <Mail className="w-4 h-4 mr-2 shrink-0" />
                   Contact@ai-webtools.com
                 </a>
               </li>
@@ -150,16 +152,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; 2025 <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors font-semibold" aria-label="AIWEBTOOLS.AI Homepage">AIWEBTOOLS.AI - AI WEB TOOLS LLC</a> All rights reserved. <span className="italic ml-1">World Peace Powered By AI Tools</span> 🕊️
+        <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-gray-500 text-xs sm:text-sm text-center sm:text-left">
+            &copy; 2025 <a href={AIWEBTOOLS_URL} target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-purple transition-colors font-semibold" aria-label="AIWEBTOOLS.AI Homepage">AIWEBTOOLS.AI - AI WEB TOOLS LLC</a> All rights reserved. <span className="italic ml-1">World Peace Powered By AI Tools</span> 🕊️
           </p>
           
           <a 
-            href="https://www.aiwebtools.ai" 
+            href={AIWEBTOOLS_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-5 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white rounded-full text-sm font-medium hover:shadow-lg hover:shadow-cyber-blue/30 transition-all duration-300"
+            className="px-5 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple text-white rounded-full text-sm font-medium hover:shadow-lg hover:shadow-cyber-blue/30 transition-all duration-300 whitespace-nowrap shrink-0"
             aria-label="Discover More AI Tools at AIWEBTOOLS.AI"
           >
             Explore More AI Tools
